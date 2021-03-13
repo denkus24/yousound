@@ -4,6 +4,7 @@ Tool for downloading sound from YouTube
 # Screenshot
 <img src="https://github.com/denkus24/yousound/blob/main/yousound.png" alt="Downloading single video"/>
 # Installing
+<br>
 ```apt-get install python3 git```
 <br>
 ```git clone https://github.com/denkus24/yousound```
