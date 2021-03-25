@@ -66,7 +66,7 @@ elif video_or_playlist.lower() == 'p':
     if 'youtube.com/playlist?list=' in playlist_link:
         playlist_example = Playlist(playlist_link)
         print('Start downloading playlist...')
-        for link in playlist_example.video_urls[:3]:
+        for link in playlist_example.video_urls:
             download_and_convert(link)
         print('Downloading finished!')
     else:
